@@ -48,7 +48,7 @@
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmO-hn-ECk">
                                         <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Final Answer!"/>
+                                        <state key="normal" title="Final Answer"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -61,6 +61,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="bua-6z-qqO" secondAttribute="trailing" id="nHq-x0-AzT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerPickerView" destination="8A2-xt-LeF" id="bDF-2n-4L3"/>
+                        <outlet property="questionLabel" destination="JkV-uN-iTW" id="X1V-A6-fgX"/>
+                        <outlet property="questionTextView" destination="934-Dd-mOX" id="opn-4J-CfV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="g8y-Vp-98C">
