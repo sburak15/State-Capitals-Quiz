@@ -26,29 +26,33 @@
                                 <rect key="frame" x="16" y="28" width="343" height="631"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkV-uN-iTW">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Question's Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="934-Dd-mOX">
-                                        <rect key="frame" x="0.0" y="20.5" width="343" height="344"/>
+                                        <rect key="frame" x="0.0" y="31.5" width="343" height="323"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MaE-aJ-vQ4">
-                                        <rect key="frame" x="0.0" y="364.5" width="343" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="354.5" width="343" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" red="0.99583063471502586" green="0.99261933960054238" blue="0.98221932082018859" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8A2-xt-LeF">
-                                        <rect key="frame" x="0.0" y="385" width="343" height="216"/>
+                                        <rect key="frame" x="0.0" y="381" width="343" height="216"/>
+                                        <color key="backgroundColor" red="1" green="0.99677525976552983" blue="0.9863316979611374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmO-hn-ECk">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Final Answer"/>
+                                        <rect key="frame" x="0.0" y="597" width="343" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Final Answer">
+                                            <color key="titleColor" red="0.80462678108808294" green="0.80462678108808294" blue="0.80462678108808294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="submitButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gw9-5C-20H"/>
                                         </connections>
@@ -56,7 +60,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.033316730939999997" green="0.12269611380000001" blue="0.42980893780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bua-6z-qqO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="80g-tV-8Y1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bua-6z-qqO" secondAttribute="bottom" constant="8" symbolic="YES" id="Ih5-8M-7Ai"/>
@@ -76,6 +80,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </stackView>
             </objects>
+            <point key="canvasLocation" x="76" y="43.628185907046479"/>
         </scene>
     </scenes>
 </document>
