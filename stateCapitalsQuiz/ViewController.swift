@@ -13,6 +13,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var questionTextView: UITextView!
     @IBOutlet weak var answerPickerView: UIPickerView!
     @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    var score : Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,6 +36,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         questionTextView.text = CardCollection.instance.currentCard.question
         questionLabel.text = "Question \(CardCollection.instance.currentIndex + 1)/\(CardCollection.instance.cards.count)"
         answerPickerView.reloadAllComponents()
+        scoreLabel.text = "Score: \(score)"
     }
     
     
@@ -60,6 +65,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             alert = UIAlertController(title: "Correct", message: "Correct Answer!", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Yay!", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true)
+            
+            score += 1
         }
         else {
             alert = UIAlertController(title: "Incorrect", message: "Incorrect Answer.", preferredStyle: UIAlertControllerStyle.alert)
