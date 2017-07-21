@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					94EDF95E1F1E46F100C9784A = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4PRU5G4MBV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PRU5G4MBV;
 				INFOPLIST_FILE = stateCapitalsQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDTech.Samantha.stateCapitalsQuiz;
@@ -278,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PRU5G4MBV;
 				INFOPLIST_FILE = stateCapitalsQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDTech.Samantha.stateCapitalsQuiz;
@@ -305,6 +308,7 @@
 				94EDF9731F1E46F100C9784A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
